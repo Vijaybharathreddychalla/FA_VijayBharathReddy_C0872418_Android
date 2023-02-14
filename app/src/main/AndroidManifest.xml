@@ -12,6 +12,9 @@
         android:theme="@style/Theme.FA_VijayBharathReddy_C0872418_Android"
         tools:targetApi="31">
         <activity
+            android:name=".ProductDetails"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
